@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.6;
+    color: #e0e0e0;
+    background-color: #121212;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.productHero {
+    padding: 80px 0 60px 0;
+    max-width: 700px;
+}
+
+.badge {
+    background-color: #1e1e1e;
+    border: 1px solid #00adb5;
+    color: #00adb5;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+.productHero h1 {
+    font-size: 3rem;
+    color: #ffffff;
+    margin: 20px 0;
+}
+
+.productSubtext {
+    color: #a0a0a0;
+    margin-bottom: 30px;
+    font-size: 1.1rem;
+}
+
+.product-image-container {
+    width: 100%;
+    max-width: 300px; /* Keeps the package layout neat and compact */
+    margin: 0 auto 30px auto; /* Centers it and adds space above the button */
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    border-radius: 12px; /* Smooth corners matching your cards */
+    border: 1px solid #2a2a2a; /* Subtle boundary border */
+    background-color: #1e1e1e; /* Gives it a clean background block if using a PNG transparent graphic */
+}
+
+.buyBtn, .checkoutBtn {
+    display: inline-block;
+    background-color: #00adb5;
+    color: #ffffff;
+    padding: 14px 30px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.featuresSection {
+    padding: 60px 0;
+    max-width: 900px;
+    width: 100%;
+}
+
+.featuresSection h2 {
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+
+.featuresGrid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.featureCard {
+    background-color: #1e1e1e;
+    border: 1px solid #2a2a2a;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.feature-card .icon {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.feature-card h3 {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.feature-card p {
+    color: #a0a0a0;
+}
+
+/* PRICING */
+.pricing-section {
+    padding: 60px 0 100px 0;
+    width: 100%;
+}
+
+.pricing-card {
+    background-color: #1e1e1e;
+    border: 2px solid #00adb5; /* Highlight the box with your signature teal */
+    padding: 40px;
+    border-radius: 12px;
+    max-width: 350px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.popular-tag {
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #00adb5;
+    color: #ffffff;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+
+.price {
+    font-size: 3rem;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.price-details {
+    color: #a0a0a0;
+    margin-bottom: 25px;
+}
+
+.checkout-btn {
+    width: 100%;
+}
